@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AbracadabraKids - Cadastro</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>🎈 AbracadabraKids</h1>
+
+        <h2>Criar Conta</h2>
+
+        <form method="POST">
+
+            <input
+                type="text"
+                name="username"
+                placeholder="Usuário"
+                required>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Senha"
+                required>
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+        <br>
+
+        <a href="/login">
+            Já possui uma conta? Fazer login
+        </a>
+
+    </div>
+
+</body>
+
+</html>
