@@ -430,7 +430,6 @@ CTRL + C
 
 - Gustavo Costa Jorge
 - Jhones Medeiros Martins
-- Thauan Thales Paulista
 
 ---
 
